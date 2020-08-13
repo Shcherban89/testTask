@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+:root {
+    font-family: 'Lato', sans-serif;
+    color: #21243D;
+    line-height: 1.7;
+    scroll-behavior: smooth;
+}
+html, body {
+    max-width: 1200px;
+    margin: auto;
+    color: #21243D;
+}
+section {
+    padding: 2rem 0; 
+}
+.head h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    padding: 2rem;
+}
+.head-block{
+    display: flex;
+    justify-content: space-between;
+}
+.head-block p{
+    font-size: 2rem;
+    padding: 1rem;
+    text-indent: 1.5em;
+}
+.head-block img{
+    width: 40%;
+}
+.foot-block img {
+    height: 600px;
+}
+.foot-block{
+    display: flex;
+    justify-content: space-between;
+}
+.fish_kind{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+}
+.card-body p{
+    font-size: 1.4rem;
+}
+.card-body h5{
+    font-size: 1.4rem;
+}
+.head h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
